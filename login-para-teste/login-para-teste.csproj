@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>login_para_teste</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="lin.png" />
+    <None Remove="userLogin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.1.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="lin.png" />
+    <Resource Include="userLogin.png" />
+  </ItemGroup>
+
+</Project>
