@@ -29,6 +29,7 @@ namespace login_para_teste
         {
             InitializeComponent();
             usuario = usuarioLogado;
+            usuario = usuarioLogado;
         }
     }
 }
